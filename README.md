@@ -44,8 +44,8 @@ The demo combines six workflows:
 No build step is required.
 
 ```bash
-git clone https://github.com/alf1ei/WDNMD.git
-cd WDNMD
+git clone https://github.com/alf1ei/ai-love.git
+cd ai-love
 python -m http.server 4173
 ```
 
@@ -87,7 +87,7 @@ Open http://localhost:4173.
 
 ### Disclaimer
 
-AI Muse is an experimental personal analytics demo, not a dating decision system. Scores are heuristic and should never be treated as facts about another person or as evidence of romantic interest.
+
 
 ## 简体中文
 
@@ -118,12 +118,7 @@ python -m http.server 4173
 
 ### 当前 MVP 边界
 
-- 默认使用虚构演示数据，不读取抖音账号。
-- 不实现抖音自动登录、绕过反爬、抓取非公开信息。
-- 不自动刷礼物、不自动付款、不自动发送私信。
-- 所有礼物金额均为模拟记录。
-- 不根据长相、直播热情或互动频率推断是否单身或是否喜欢用户。
-- AI 聊天仅生成草稿，发送动作由用户本人完成。
+
 
 ### 技术说明
 
@@ -135,4 +130,3 @@ python -m http.server 4173
 
 ---
 
-Built as an experimental AI product portfolio project.

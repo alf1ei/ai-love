@@ -5,7 +5,7 @@
   "description": "Personal Attraction Intelligence — a local-first AI relationship insight prototype",
   "type": "module",
   "scripts": {
-    "test": "node --test",
+    "test": "node --test scripts/smoke-test.mjs",
     "serve": "python3 -m http.server 4173"
   },
   "engines": {

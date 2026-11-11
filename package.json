@@ -1,0 +1,14 @@
+{
+  "name": "ai-muse",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Personal Attraction Intelligence — a local-first AI relationship insight prototype",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "serve": "python3 -m http.server 4173"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
